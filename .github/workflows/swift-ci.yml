@@ -14,14 +14,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Select Xcode version
-      # Use a specific Xcode version if needed, e.g., '15.0'
-      # otherwise, macos-latest will use a default Xcode version.
-      # For a Swift package, often the default is sufficient.
-      # uses: maxim-top/setup-xcode@v1
-      # with:
-      #   xcode-version: '15.0' # Example: Use Xcode 15.0
-
     - name: Build
       run: swift build
 
