@@ -353,6 +353,15 @@ This repo comes with a sample application to demonstrate the usage of `Backgroun
 * [**BackgroundableSample**](https://github.com/takimoto3/BackgroundableSample)
 <br>A simple counter application using SwiftUI is available to demonstrate the `Backgroundable` macros. It showcases the before and after application of macros for `struct`, `class`, and `actor` based implementations.
 
+## Acknowledgements
+
+This package incorporates the following third-party software:
+
+- [**swift-syntax**](https://github.com/swiftlang/swift-syntax) (Apache-2.0 License)
+- [**swift-macro-testing**](https://github.com/pointfreeco/swift-macro-testing) (MIT License)
+
+For detailed licensing information, refer to the [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES) file.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
